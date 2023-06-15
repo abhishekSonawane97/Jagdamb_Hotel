@@ -1,0 +1,20 @@
+.outletAddress > p {
+  margin-bottom: 10px;
+}
+
+.footerLogo {
+  width: 150px;
+  margin: 10px;
+  border-radius: 75px;
+}
+
+@media only screen and (max-width: 600px) {
+    .footerLogo{
+        width: 100px;
+        margin: 5px;
+    }
+    .outletAddress > p {
+        margin-bottom: 5px;
+        font-size: 15px;
+      }
+}
